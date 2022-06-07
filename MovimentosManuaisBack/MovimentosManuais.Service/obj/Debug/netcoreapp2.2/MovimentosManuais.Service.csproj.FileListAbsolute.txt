@@ -1,0 +1,14 @@
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Service\bin\Debug\netcoreapp2.2\MovimentosManuais.Service.deps.json
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Service\bin\Debug\netcoreapp2.2\MovimentosManuais.Service.dll
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Service\bin\Debug\netcoreapp2.2\MovimentosManuais.Service.pdb
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Service\bin\Debug\netcoreapp2.2\MovimentosManuais.Data.dll
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Service\bin\Debug\netcoreapp2.2\MovimentosManuais.Domain.dll
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Service\bin\Debug\netcoreapp2.2\MovimentosManuais.Domain.pdb
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Service\bin\Debug\netcoreapp2.2\MovimentosManuais.Data.pdb
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Service\obj\Debug\netcoreapp2.2\MovimentosManuais.Service.csprojAssemblyReference.cache
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Service\obj\Debug\netcoreapp2.2\MovimentosManuais.Service.AssemblyInfoInputs.cache
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Service\obj\Debug\netcoreapp2.2\MovimentosManuais.Service.AssemblyInfo.cs
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Service\obj\Debug\netcoreapp2.2\MovimentosManuais.Service.csproj.CoreCompileInputs.cache
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Service\obj\Debug\netcoreapp2.2\MovimentosManuais.Service.csproj.CopyComplete
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Service\obj\Debug\netcoreapp2.2\MovimentosManuais.Service.dll
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Service\obj\Debug\netcoreapp2.2\MovimentosManuais.Service.pdb

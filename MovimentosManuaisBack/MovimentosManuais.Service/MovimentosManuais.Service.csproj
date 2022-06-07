@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MovimentosManuais.Domain\MovimentosManuais.Domain.csproj" />
+    <ProjectReference Include="..\MovimentosManuais.Data\MovimentosManuais.Data.csproj" />
+  </ItemGroup>
+</Project>

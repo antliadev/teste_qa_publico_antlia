@@ -1,0 +1,219 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Trabalho\\Antlia\\Documentos\\Avaliação QA\\MovimentosManuaisBack\\MovimentosManuais.Service\\MovimentosManuais.Service.csproj": {}
+  },
+  "projects": {
+    "E:\\Trabalho\\Antlia\\Documentos\\Avaliação QA\\MovimentosManuaisBack\\MovimentosManuais.Data\\MovimentosManuais.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Trabalho\\Antlia\\Documentos\\Avaliação QA\\MovimentosManuaisBack\\MovimentosManuais.Data\\MovimentosManuais.Data.csproj",
+        "projectName": "MovimentosManuais.Data",
+        "projectPath": "E:\\Trabalho\\Antlia\\Documentos\\Avaliação QA\\MovimentosManuaisBack\\MovimentosManuais.Data\\MovimentosManuais.Data.csproj",
+        "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
+        "outputPath": "E:\\Trabalho\\Antlia\\Documentos\\Avaliação QA\\MovimentosManuaisBack\\MovimentosManuais.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\danil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "E:\\Trabalho\\Antlia\\Documentos\\Avaliação QA\\MovimentosManuaisBack\\MovimentosManuais.Domain\\MovimentosManuais.Domain.csproj": {
+                "projectPath": "E:\\Trabalho\\Antlia\\Documentos\\Avaliação QA\\MovimentosManuaisBack\\MovimentosManuais.Domain\\MovimentosManuais.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[2.6.18, )"
+            },
+            "Z.EntityFramework.Plus.EFCore": {
+              "target": "Package",
+              "version": "[2.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Trabalho\\Antlia\\Documentos\\Avaliação QA\\MovimentosManuaisBack\\MovimentosManuais.Domain\\MovimentosManuais.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Trabalho\\Antlia\\Documentos\\Avaliação QA\\MovimentosManuaisBack\\MovimentosManuais.Domain\\MovimentosManuais.Domain.csproj",
+        "projectName": "MovimentosManuais.Domain",
+        "projectPath": "E:\\Trabalho\\Antlia\\Documentos\\Avaliação QA\\MovimentosManuaisBack\\MovimentosManuais.Domain\\MovimentosManuais.Domain.csproj",
+        "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
+        "outputPath": "E:\\Trabalho\\Antlia\\Documentos\\Avaliação QA\\MovimentosManuaisBack\\MovimentosManuais.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\danil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Trabalho\\Antlia\\Documentos\\Avaliação QA\\MovimentosManuaisBack\\MovimentosManuais.Service\\MovimentosManuais.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Trabalho\\Antlia\\Documentos\\Avaliação QA\\MovimentosManuaisBack\\MovimentosManuais.Service\\MovimentosManuais.Service.csproj",
+        "projectName": "MovimentosManuais.Service",
+        "projectPath": "E:\\Trabalho\\Antlia\\Documentos\\Avaliação QA\\MovimentosManuaisBack\\MovimentosManuais.Service\\MovimentosManuais.Service.csproj",
+        "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
+        "outputPath": "E:\\Trabalho\\Antlia\\Documentos\\Avaliação QA\\MovimentosManuaisBack\\MovimentosManuais.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\danil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "E:\\Trabalho\\Antlia\\Documentos\\Avaliação QA\\MovimentosManuaisBack\\MovimentosManuais.Data\\MovimentosManuais.Data.csproj": {
+                "projectPath": "E:\\Trabalho\\Antlia\\Documentos\\Avaliação QA\\MovimentosManuaisBack\\MovimentosManuais.Data\\MovimentosManuais.Data.csproj"
+              },
+              "E:\\Trabalho\\Antlia\\Documentos\\Avaliação QA\\MovimentosManuaisBack\\MovimentosManuais.Domain\\MovimentosManuais.Domain.csproj": {
+                "projectPath": "E:\\Trabalho\\Antlia\\Documentos\\Avaliação QA\\MovimentosManuaisBack\\MovimentosManuais.Domain\\MovimentosManuais.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

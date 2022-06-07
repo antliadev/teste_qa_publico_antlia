@@ -1,0 +1,12 @@
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Data\bin\Debug\netcoreapp2.2\MovimentosManuais.Data.deps.json
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Data\bin\Debug\netcoreapp2.2\MovimentosManuais.Data.dll
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Data\bin\Debug\netcoreapp2.2\MovimentosManuais.Data.pdb
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Data\bin\Debug\netcoreapp2.2\MovimentosManuais.Domain.dll
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Data\bin\Debug\netcoreapp2.2\MovimentosManuais.Domain.pdb
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Data\obj\Debug\netcoreapp2.2\MovimentosManuais.Data.csprojAssemblyReference.cache
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Data\obj\Debug\netcoreapp2.2\MovimentosManuais.Data.AssemblyInfoInputs.cache
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Data\obj\Debug\netcoreapp2.2\MovimentosManuais.Data.AssemblyInfo.cs
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Data\obj\Debug\netcoreapp2.2\MovimentosManuais.Data.csproj.CoreCompileInputs.cache
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Data\obj\Debug\netcoreapp2.2\MovimentosManuais.Data.csproj.CopyComplete
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Data\obj\Debug\netcoreapp2.2\MovimentosManuais.Data.dll
+E:\Trabalho\Antlia\Documentos\Avaliação QA\MovimentosManuaisBack\MovimentosManuais.Data\obj\Debug\netcoreapp2.2\MovimentosManuais.Data.pdb
