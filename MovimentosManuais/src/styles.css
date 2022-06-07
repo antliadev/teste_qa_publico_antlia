@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+}
+
+
+/* You can add global styles to this file, and also import other style files */
+html,
+body {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+}
+
+.dvAll {
+    padding: 15px;
+}
+
+.dvForm {
+    border: 1px solid #a8a8a8;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+p {
+    font-family: RobotoRegular;
+    font-style: normal;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+@font-face {
+    font-family: 'MontserratBold';
+    src: url(src/assets/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'MontserratNormal';
+    src: url(src/assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url(src/assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url(src/assets/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: RobotMedium;
+    src: url(src/assets/fonts/Roboto-Medium.ttf);
+}
+
+mat-form-field {
+    display: block !important;
+}
+
+mat-label {
+    font-family: RobotoRegular;
+    font-style: normal;
+    font-size: 12px;
+    color: #000000;
+    margin: 3px;
+}
+
+.w-25p {
+    width: 25%;
+}
+
+.w-10p {
+    width: 10%;
+}
+
+.w-15p {
+    width: 15%;
+}
+
+.w-20p {
+    width: 20%;
+}
+
+.w-30p {
+    width: 30%;
+}
+
+td, th {
+    vertical-align: middle;
+}
+
+snack-bar-container {
+    white-space: pre-wrap;
+    color: #ffffff;
+}
+
+.lblTitle {
+    font-family: RobotoBold;
+    color: #747474;
+}
+
+.lblError {
+    color: #f44336;
+}
+
+.text-right {
+    text-align: right!important;
+}
+
+.text-center {
+    text-align: center!important;
+}

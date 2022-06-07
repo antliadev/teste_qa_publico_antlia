@@ -1,0 +1,4 @@
+{
+    "apiUrlLocal": "http://localhost:5000/v1",
+    "apiUrlProd": "http://localhost:5000/v1"
+}

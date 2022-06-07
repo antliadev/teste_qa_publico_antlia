@@ -1,0 +1,126 @@
+<ngx-ui-loader></ngx-ui-loader>
+
+<div fxLayout="column" fxFlexFill fxLayoutAlign="space-between stretch" class="dvAll">
+    <div div fxLayout="row" fxLayoutAlign="center start" style="flex: 0">
+        <div fxLayout="column" flexLayoutAlign="center" fxFlex="50" class="dvForm">
+            <div fxLayout="row" fxLayoutGap="15px">
+                <div fxFlex="30">
+                    <mat-label class="lblTitle" id="lblMes">Mês:</mat-label>
+                    <mat-form-field appearance="outline">
+                        <input matInput id='txtMes' placeholder="Insira o Mês" [disabled]="disabledFields"
+                            [(ngModel)]="fields.dAT_MES" class="text-center" > <!--maxlength="2" numbersOnly>-->
+                    </mat-form-field>
+                </div>
+
+                <div fxFlex="30">
+                    <mat-label class="lblTitle" id="lblAno">Ano:</mat-label>
+                    <mat-form-field appearance="outline">
+                        <input matInput id='txtAno' placeholder="Insira o Ano" [disabled]="disabledFields"
+                            [(ngModel)]="fields.dAT_ANO" class="text-center" maxlength="4" numbersOnly>
+                    </mat-form-field>
+                </div>
+            </div>
+
+            <div fxLayout="row" fxLayoutGap="15px">
+                <div fxFlex="50">
+                    <mat-label class="lblTitle" id="lblProduto">Produto:</mat-label>
+                    <mat-form-field class="mat-selection" appearance="outline">
+                        <mat-select name="ddlProduto" [(ngModel)]="fields.cOD_PRODUTO" [disabled]="disabledFields"
+                            (selectionChange)="changeProduto($event)">
+                            <mat-option *ngFor="let produto of lstProdutos" [value]="produto.codigo">
+                                {{ produto.descricao }}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+
+                <div fxFlex="50">
+                    <mat-label class="lblTitle" id="lblCosif">COSIF:</mat-label>
+                    <mat-form-field class="mat-selection" appearance="outline">
+                        <mat-select name="ddlCosif" [(ngModel)]="fields.cOD_COSIF" [disabled]="disabledFields"
+                            (selectionChange)="changeCosif($event)">
+                            <mat-option *ngFor="let cosif of lstCosif" [value]="cosif.codigo">
+                                {{ cosif.descricao }}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+            </div>
+
+            <div fxLayout="row" fxLayoutGap="15px">
+                <div fxFlex="50">
+                    <mat-label class="lblTitle" id="lblValor">Valor:</mat-label>
+                    <mat-form-field appearance="outline">
+                        <input matInput id='txtValor' placeholder="Insira o Valor" [disabled]="disabledFields"
+                            class="text-right" [(ngModel)]="valor" currencyMask
+                            [options]="{ prefix: 'R$ ', thousands: '.', decimal: ',' }">
+                    </mat-form-field>
+                </div>
+            </div>
+
+            <div fxLayout=" row" fxLayoutGap="15px">
+                <div fxFlex="100">
+                    <mat-label class="lblTitle" id="lblObservacao">Observação:</mat-label>
+                    <mat-form-field appearance="outline">
+                        <textarea matInput id="txtObservacao" matTextareaAutosize matAutosizeMinRows=5
+                            matAutosizeMaxRows=10 maxlength="300" [disabled]="disabledFields"
+                            placeholder="Insira a Observação" [(ngModel)]="fields.dES_DESCRICAO"></textarea>
+                    </mat-form-field>
+                </div>
+            </div>
+
+            <div fxLayout="row" fxLayoutGap="15px">
+                <div fxFlex="100" fxLayoutGap="15px">
+                    <button mat-flat-button id="btnLimpar" (click)="limpar()" [disabled]="disabledClear">Limpar</button>
+                    <button mat-flat-button color="primary" id="btnNovo" (click)="novo()"
+                        [disabled]="disabledNew">Novo</button>
+                    <button mat-flat-button color="warn" id="btnIncluir" (click)="incluir()"
+                        [disabled]="disabledAdd">Incluir</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div div fxLayout="row" fxLayoutAlign="center start" style="flex: 1; padding-top: 30px;">
+        <div fxLayout="column" flexLayoutAlign="space-between center" fxFlex="50">
+            <table mat-table [dataSource]="dataSource" style="flex: 1;">
+                <ng-container matColumnDef="mes">
+                    <th mat-header-cell *matHeaderCellDef class="w-10p">Mês</th>
+                    <td mat-cell *matCellDef="let row">{{ formatNumberLength(row.mes, 2) }}</td>
+                </ng-container>
+
+                <ng-container matColumnDef="ano">
+                    <th mat-header-cell *matHeaderCellDef class="w-10p">Ano</th>
+                    <td mat-cell *matCellDef="let row">{{ formatNumberLength(row.ano, 4) }}</td>
+                </ng-container>
+
+                <ng-container matColumnDef="numLancamento">
+                    <th mat-header-cell *matHeaderCellDef class="w-10p">Nº Lançamento</th>
+                    <td mat-cell *matCellDef="let row">{{ row.numLancamento }}</td>
+                </ng-container>
+
+                <ng-container matColumnDef="desProduto">
+                    <th mat-header-cell *matHeaderCellDef class="w-30p">Produto</th>
+                    <td mat-cell *matCellDef="let row">{{ row.desProduto }}</td>
+                </ng-container>
+
+                <ng-container matColumnDef="codClassificacao">
+                    <th mat-header-cell *matHeaderCellDef class="w-25p">COSIF</th>
+                    <td mat-cell *matCellDef="let row">{{ row.codClassificacao }}</td>
+                </ng-container>
+
+                <ng-container matColumnDef="valor">
+                    <th mat-header-cell *matHeaderCellDef class="w-15p">Valor</th>
+                    <!-- <td mat-cell *matCellDef="let row">R$ {{ replaceAll((row.valor | number:'.2-2').toString()) }} -->
+                    <td mat-cell *matCellDef="let row">{{ row.valor }}
+                    </td>
+                </ng-container>
+
+                <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            </table>
+
+            <mat-paginator [pageSizeOptions]="[5, 10, 15, 30, 50]" style="flex: 0;"></mat-paginator>
+        </div>
+    </div>
+</div>
